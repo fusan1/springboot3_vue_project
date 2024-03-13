@@ -9,9 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springboot_quickstart" />
         <module name="springboot-mybatis" />
+        <module name="dmybatis-spring-boot-starter" />
+        <module name="dmybatis-spring-boot-autoconfigure" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dmybatis-spring-boot-autoconfigure" target="1.7" />
+      <module name="dmybatis-spring-boot-starter" target="1.7" />
       <module name="springboot-mybatis" target="17" />
       <module name="springboot_quickstart" target="17" />
     </bytecodeTargetLevel>
